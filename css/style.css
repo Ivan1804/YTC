@@ -1,0 +1,51 @@
+﻿body, h1, h2, h3, h4, p, a {
+    margin: 0;
+    font-weight: normal;
+    }
+
+h1 {
+    font-size: 39 px;
+    font-weight: 400; /*задание толщины шрифта*/
+    text-align: center;
+    сolor: black; /*задание цвета текста*/
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+a {
+    text-decoration: none; /*убрать подчеркивание текста*/
+    }
+
+body {
+    background-color: #d1e231;
+}
+
+.header {
+    height: 100vh;
+    background-color: #eee;
+    background-image: url(https://pictures.s3.yandex.net/frontend-developer/free-course/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    }
+
+.footer {
+    height: 100px;
+    background-color: #4d5d53;
+    display: flex;
+}
+.card {
+    width: 39vw;
+    height: 69vh;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    padding: 70px;
+    box-shadow: 4px 4px 5px rgba(250, 50, 50, .4); /*задание тени рамки и ее цвета и размера*/
+    display: inline-block; /*выстраивание всех карточек в линию*/
+    margin-right: 60px;
+    background-image: url(https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    /*background-size: cover; /*растянув или сжав картинку уместит ее заполнив весь блок*/
+    background-repeat: no-repeat; /*запрет на повторение картинки*/
+    background-position: center; /*размещение картинки фона по центру*/
+    background-color: #fae7b5; /*задание цвета фона*/
+    background-size: 27vw 50vh;
+}
